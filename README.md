@@ -28,3 +28,11 @@ go get launchpad.net/xmlpath
 go install lucas/user/zabbix-passenger
 
 Copy the binary to the desired system
+
+
+HOW TO ADD TO ZABBIX AGENT
+=============
+1. Copy the binary to the application server 
+2. Move the file to /usr/local/bin
+3. Put the userparameter_passenger.conf at your zabbix conf folder and restart it
+4. Ready to go! :)
