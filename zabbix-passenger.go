@@ -20,9 +20,9 @@ func read_xml() *xmlpath.Node {
 	path, err := exec.LookPath("passenger-status")
 	if err != nil {
 		// passenger-status not found in path
-		if _, err := os.Stat("/usr/local/rvm/wrappers/default/passenger-status"); err == nil {
+		if _, err := os.Stat("/opt/ruby-2.3.0/bin/passenger-status"); err == nil {
 			// default rvm wrapper exists so use that!
-			path = "/usr/local/rvm/wrappers/default/passenger-status"
+			path = "/opt/ruby-2.3.0/bin/passenger-status"
 		}
 	}
 
