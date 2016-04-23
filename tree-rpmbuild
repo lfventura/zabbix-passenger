@@ -22,3 +22,6 @@ rpmbuild/
 └── tmp
 
 11 directories, 10 files
+
+
+ rpmbuild -ba SPECS/zabbix-passenger.spec

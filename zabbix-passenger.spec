@@ -2,7 +2,7 @@
 %define  debug_package %{nil}
 Name:		zabbix-passenger	
 Version:	1.0
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Passenger monitoring for Zabbix Agent
 
 Group:		Networking/Admin	
