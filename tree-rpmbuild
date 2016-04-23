@@ -1,0 +1,24 @@
+rpmbuild/
+├── BUILDROOT
+├── RPMS
+│   └── x86_64
+│       └── zabbix-passenger-1.0-1.el7.centos.x86_64.rpm
+├── SOURCES
+│   ├── zabbix-passenger
+│   │   └── work
+│   │       └── src
+│   │           └── zabbix-passenger
+│   │               ├── README.md
+│   │               ├── userparameter_passenger.conf
+│   │               ├── zabbix-passenger.go
+│   │               ├── zabbix-passenger.spec
+│   │               ├── zabbix-passenger-sudo
+│   │               └── zabbix-template.xml
+│   └── zabbix-passenger.tar.gz
+├── SPECS
+│   └── zabbix-passenger.spec
+├── SRPMS
+│   └── zabbix-passenger-1.0-1.el7.centos.src.rpm
+└── tmp
+
+11 directories, 10 files
